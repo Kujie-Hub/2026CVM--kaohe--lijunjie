@@ -1,0 +1,43 @@
+#===============================================================================
+# .dockerignore - Docker 构建时排除的文件和目录
+#===============================================================================
+
+# Git 相关
+.git/
+.gitignore
+.gitattributes
+
+# Docker 相关
+Dockerfile
+.dockerignore
+*.tar
+
+# 测试和日志
+test/
+ai-chat-log/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+
+# IDE 和编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 环境变量和配置
+.env
+*.env
+
+# 前端（如果有）
+node_modules/
+
+# 临时文件
+*.tmp
+*.log
